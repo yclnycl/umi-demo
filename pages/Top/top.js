@@ -1,13 +1,9 @@
 import React from "react"
 import TopCss from "./top.css"
 import {Icon} from "antd"
-import $ from "jquery"
 import Link from 'umi/link';
 
 export default class TopGrop extends React.Component {
-    goTop = () => {
-        $("boyd").scrollTop(0)
-    }
     render() {
         return (
             <div className={TopCss.top_div_css}>
